@@ -1,5 +1,6 @@
-## dockerfile for tensorflow models repo.
+## dockerfile for tensorflow [models](https://github.com/tensorflow/models) repo.
 this dockerfile could help you build your own image for tensorflow models repo.
+
 ## how to use
 1. build image
     ```
@@ -34,3 +35,4 @@ this dockerfile could help you build your own image for tensorflow models repo.
         ```
         python3 object_detection/builders/model_builder_test.py
         ```
+note these script is tested models' v1.13 branch.
